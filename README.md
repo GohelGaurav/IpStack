@@ -1,5 +1,6 @@
 # IpStack
 A .NET Core/Framework client wrapper for accessing the ipstack API.
+Originally Created By **mattosaurus** @ https://github.com/mattosaurus/IpStack
 
 # Installation (.Net Core)
 To use IpStack in your C# project, you can either download the IpStack C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.

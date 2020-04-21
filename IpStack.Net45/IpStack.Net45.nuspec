@@ -9,18 +9,22 @@
         <version>$version$</version>
 
         <!-- Authors contain text that appears directly on the gallery -->
-        <authors>Gaurav Gohel</authors>
+        <authors>Qlogic.io</authors>
 
         <!-- Owners are typically nuget.org identities that allow gallery
              users to earily find other packages by the same owners.  -->
-        <owners>Qlogic</owners>
+        <owners>Qlogic.io</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <developmentDependency>false</developmentDependency>
+		<repository type="git" url="https://github.com/GauravQ/IpStack" branch="master" />
+        <license type="expression">MIT</license>
+		<language>en-US</language>
 
         <!-- The description can be used in package manager UI. Note that the
              nuget.org gallery uses information you add in the portal. -->
         <description>A .NET Framework 4.5 client wrapper for accessing the ipstack API.</description>
-        <copyright>Copyright 2020</copyright>
+        <copyright>None</copyright>
+		<tags>ipstack geolocation ip address</tags>
 
         <!-- Dependencies are automatically installed when the package is installed -->
         <dependencies>
@@ -33,6 +37,7 @@
 
         <!-- A readme.txt will be displayed when the package is installed -->
         <file src="README.md" target="" />
+		<!-- <file src="bin\$configuration$\*" target="lib\net48" /> -->
 
     </files>
 </package>
