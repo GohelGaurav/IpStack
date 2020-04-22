@@ -14,7 +14,7 @@ Add the following namespaces to use the library:
 
 ```C#
 using IpStack.Net48;
-using IpStack.Models.Net48;
+using IpStack.Net48.Models;
 ```
 # Dependencies
 In order to use the ipstack API you'll need an [API key](https://ipstack.com/product), a free usage tier is available that allows up to 10,000 API calls a month.

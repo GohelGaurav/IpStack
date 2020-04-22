@@ -7,8 +7,8 @@
     <ProjectGuid>{D04B436B-337B-48E0-A6BE-77D5765F889D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IpStack.Net5</RootNamespace>
-    <AssemblyName>IpStack.Net5</AssemblyName>
+    <RootNamespace>IpStack.Net45</RootNamespace>
+    <AssemblyName>IpStack.Net45</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

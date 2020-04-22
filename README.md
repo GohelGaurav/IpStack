@@ -28,7 +28,7 @@ Add the following namespaces to use the library:
 
 ```C#
 using IpStack.Net45;
-using IpStack.Models.Net45;
+using IpStack.Net45.Models;
 ```
 # Installation (.Net Framework 4.8)
 To use IpStack in your C# project, you can either download the IpStack C# .NET libraries directly from the Github repository or, if you have the NuGet package manager installed, you can grab them automatically.
@@ -42,13 +42,13 @@ Add the following namespaces to use the library:
 
 ```C#
 using IpStack.Net48;
-using IpStack.Models.Net48;
+using IpStack.Net48.Models;
 ```
 # Dependencies
 In order to use the ipstack API you'll need an [API key](https://ipstack.com/product), a free usage tier is available that allows up to 10,000 API calls a month.
 
 # Usage
-The below code can be used in a .NET Core project.
+The below code can be used in a .NET project.
 
 ```C#
     public class Program
